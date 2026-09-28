@@ -1,8 +1,8 @@
 
-let nome = "Bruna"; //String
-console.log(nome);
-nome = "Danielly";
-console.log(nome);
+let nomeSobrenome = "Bruna Lopes"; //String
+console.log(nomeSobrenome);
+nomeSobrenome = "Danielly";
+console.log(nomeSobrenome);
 
 const PI = 3.14; //Number
 console.log("Valor de PI:", PI);
@@ -20,7 +20,9 @@ console.log(alunos[2]);
 let aluno = {
     nome: "Joe",
     email: "joe@email.com",
-    genero: "masculino"
+    genero: "masculino",
+    idade: 30,
+    fumante: true
 } //Object
 console.log(aluno);
 console.log(aluno.nome);
@@ -33,19 +35,19 @@ console.log(`Nome: ${aluno.nome}`);
 // += atribuidor incremental
 let num = 0;
 num = num + 2;
-console.log(num);
+console.log(num); // 2
 num += 2;
-console.log(num);
+console.log(num); // 4
 // -= atribuidor decremental
 // /= atribuidor de divisão
 // *= atribuidor de multiplicação
 
 // operadores aritmeticos
-console.log("2+2=", 2+2);
-console.log("2-2=", 2-2);
-console.log("2/2=", 2/2);
-console.log("2*2=", 2*2);
-console.log("100%3=", 100%3);
+console.log("2+2=", 2+2); // adição
+console.log("2-2=", 2-2); // subtração
+console.log("2/2=", 2/2); // divisão
+console.log("2*2=", 2*2); // multiplicação
+console.log("100%3=", 100%3); // resto da divisão
 
 // operadores de comparação
 console.log("2 == 2: ", 2 == 2); // igual
@@ -67,16 +69,11 @@ console.log(!true); // false
 console.log(!false); // true
 
 // || ou logico
-console.log("2 > 3 || 3 > 2: ",2 > 3 || 3 > 2);
-console.log("2 > 3 || 1 > 2: ",2 > 3 || 1 > 2);
+console.log("2 > 3 || 3 > 2: ",2 > 3 || 3 > 2); // true
+console.log("2 > 3 || 1 > 2: ",2 > 3 || 1 > 2); // false
 // && ou logico
-console.log("2 > 3 && 3 > 2: ",2 > 3 && 3 > 2);
-console.log("4 > 3 && 3 > 2: ",4 > 3 && 3 > 2);
+console.log("2 > 3 && 3 > 2: ",2 > 3 && 3 > 2); // false
+console.log("4 > 3 && 3 > 2: ",4 > 3 && 3 > 2); // true
 
 
 
-
-
-// let root = document.querySelector("#root");
-// root.innerHTML = `<h1 onclick="${alert("Clicou")}">Olá mundo</h1>`;
-// root.innerHTML += "<h2>oi Uriel</h2>";
