@@ -89,4 +89,3 @@ switch (semaforo) {
 }
 
 (2 % 2 == 0) ? console.log("Par") : console.log("Impar")
-(2 % 2 == 0) && console.log("Par")
