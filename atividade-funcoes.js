@@ -31,6 +31,7 @@ function quadrado(numero){
     return numero*numero;
 }
 
-console.log(quadrado(2))
-console.log(quadrado(6))
-console.log(quadrado(8))
+// console.log(quadrado(2))
+// console.log(quadrado(6))
+// console.log(quadrado(8))
+
